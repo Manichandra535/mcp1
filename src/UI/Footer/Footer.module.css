@@ -1,0 +1,67 @@
+.Footer {
+  background-color: #151c2e;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  padding: 5vh 5vw;
+  font-family: "Roboto", sans-serif;
+  justify-content: space-around;
+  align-items: center;
+}
+.Footer > div {
+  display: flex;
+  width: 50%;
+  height: 85%;
+  border-bottom: 1px solid rgb(42, 42, 42);
+  border-top: 1px solid rgb(42, 42, 42);
+}
+.Footer > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  height: 100%;
+}
+.Footer img {
+  width: 55%;
+}
+.Footer h3 {
+  color: rgb(204, 200, 200);
+  font-family: "Oswald", sans-serif;
+}
+.Footer p {
+  color: rgb(204, 200, 200);
+}
+.Footer a {
+  color: rgb(141, 140, 140);
+  text-decoration: none;
+}
+.Footer a:hover {
+  color: rgb(204, 200, 200);
+}
+.additional {
+  align-items: flex-end;
+  padding-right: 10px;
+}
+@media screen and (max-width: 680px) {
+  .Footer {
+    background-color: #151c2e;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    padding: 5vh 5vw;
+    flex-direction: column;
+  }
+  .Footer > div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  .Footer > div > div {
+    text-align: right;
+    align-items: flex-end;
+  }
+  .Footer img {
+    width: 55%;
+  }
+}

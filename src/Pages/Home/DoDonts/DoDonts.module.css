@@ -1,0 +1,132 @@
+.DoDonts {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f7f9fe;
+  padding: 5vh 6vw;
+  font-family: "Roboto", sans-serif;
+}
+.TextSection {
+  width: 60%;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.TextSection h1 {
+  font-family: "Oswald", sans-serif;
+  color: #50658e;
+  font-size: 40px;
+}
+.TextSection h3 {
+  color: #1468cd;
+}
+.TextSection p {
+  line-height: 23px;
+}
+.imageSection {
+  width: 100%;
+  height: 65vh;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Donts,
+.Dos {
+  width: 23%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Donts > div,
+.Dos > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Donts img,
+.Dos img {
+  border: 2px solid #2a81ea;
+  border-radius: 50%;
+  width: 40%;
+}
+.DoDonts h4 {
+  text-align: center;
+  width: 60%;
+  color: #2a81ea;
+}
+.MainImage {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MainImage img {
+  width: 90%;
+}
+@media screen and (max-width: 680px) {
+  .DoDonts {
+    padding: 2vh 2vw;
+    height: 130vh;
+  }
+  .TextSection {
+    width: 100%;
+    height: 25%;
+  }
+  .TextSection h1 {
+    font-size: 30px;
+  }
+  .TextSection h3 {
+    color: #1468cd;
+    font-size: 17px;
+  }
+  .TextSection p {
+    line-height: 19px;
+  }
+  .imageSection {
+    height: 75%;
+    width: 100%;
+    flex-direction: column;
+  }
+  .Dos {
+    order: 2;
+  }
+  .Donts {
+    order: 3;
+  }
+  .Donts,
+  .Dos {
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+  }
+
+  .Donts > div,
+  .Dos > div {
+    flex-direction: column;
+  }
+  .Donts img,
+  .Dos img {
+    width: 60%;
+  }
+  .DoDonts h4 {
+    width: 100%;
+  }
+  .MainImage {
+    order: 1;
+    width: 90%;
+  }
+  .MainImage img {
+    width: 100%;
+  }
+}

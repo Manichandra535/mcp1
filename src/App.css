@@ -1,0 +1,26 @@
+:root {
+  --theme-color-one: #a56cc1;
+  --theme-color-two: #a6acec;
+  --theme-color-three: #ace7ef;
+  --theme-color-four: #cefff1;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--theme-color-three);
+  color: #3d4b69;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+  /* background: linear-gradient(transparent, #1468cd); */
+  background: #1468cd;
+  border-radius: 6px;
+}
